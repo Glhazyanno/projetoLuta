@@ -74,4 +74,19 @@ this.fighter2El.querySelector('.name').innerHTML = `${this.fighter2.name} --- ${
     this.fighter2El.querySelector('.bar').style.width = `${f2pct}%`;
   }
      
+
+
+doAttack(attacking, attacked) { 
+   if(attacking.life <=0 || attacked.life <= 0){
+       console.log('O cara já morreu o cabeção');
+       return;
+   }
+   
+   let attackFactor = (Math.random() * 2).toFixed(2);
+   
+   
+   this.update();
+
+};
+
 }
