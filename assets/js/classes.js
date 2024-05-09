@@ -83,8 +83,16 @@ doAttack(attacking, attacked) {
    }
    
    let attackFactor = (Math.random() * 2).toFixed(2);
+   let defenderFactor = (Math.random() * 2).toFixed(2);
+
+   let actualAttack = a
+
+   if(){
+
+   }
    
    
+
    this.update();
 
 };
